@@ -1,0 +1,36 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up E-Voting</title>
+    <link rel="icon" type="image/x-icon" href="gambar/vote.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style-login.css"/>
+    <script src = "main.js"></script>
+</head>
+<body>
+    <!-- navigasi header -->
+    <header>
+        <ul>
+            <li><a href=""><img src="gambar/vote.png" width=25px height=25px/>E-Voting</a></li>
+        </ul>
+    </header>
+
+    <div id="box-signUp">
+        
+        <div id="box-form-signup">
+                <form onsubmit="event.preventDefault(); signUp()" method="POST">
+                    <h2>Sign Up to E-Voting</h2>
+                    
+                    <p><input type="text" id="username"  class="input" placeholder="Name" ></p>
+                    <p><input type="text" id="fullname" class="input" placeholder="Full Name"></p>
+                    <p><input type="text" id="nik" class="input" placeholder="NIK" ></p>
+
+                    <input type="submit" value="Sign Up" class="button">
+                    
+                </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
